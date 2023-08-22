@@ -1,0 +1,23 @@
+{% extends "photos/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>
+    A user/patient who thinks he or she has chickenpox would be able to upload an image
+    of the affected area and submit it to our application in order to receive a probability estimation
+    of how likely it is that he or she has chickenpox, and thus whether or not he or she should go to
+    a healthcare facility, or can simply treat the ailment with home remedies.
+</p>
+<p>
+    The frontend of IveSeenThat is implemented using HTML, CSS, and Javascript. Users should thus be able
+    to view and interact with IveSeenThat within all supported browsers. The backend of the IveSeenThat is
+    implemented using Python, with Django as its web framework. And the machine learning algorithm developed
+    for image-based classification has been implemented using the Keras library with TensorFlow as its backend engine.
+    Dialogflow and Amazon Web Services (AWS)'s allowing for secure browsing, and for
+    establishing a unique, and more professional domain name for our live
+    application, respectively.
+</p>
+{% endblock %}

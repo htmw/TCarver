@@ -1,0 +1,167 @@
+{% extends "photos/layout.html" %}
+{% load static %}
+{% block content %}
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .image-thumbail {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .list-group-item a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body class="m-5">
+    <div class="container">
+        <div class="row-md-3">
+            <div class="col-md-12">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Pink Eye Photo Library</h1>
+                    <p class="lead">All information is provided by the Center For Disease Control Website.  feel free to scroll through the pictures to assess your ailment</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+      #ddd">
+            <img src={% static "images\pinkEye1.jpg" %} alt="responsive webite" class="img-fluid">
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+      #ddd">
+            <h2>Symptoms of conjunctivitis (pink eye) can include</h2>
+            <p>Pink or red color in the white of the eye(s)</br>
+              Swelling of the conjunctiva (the thin layer that lines the white part of the eye and the inside of the eyelid) and/or eyelids</br>
+              Increased tear production</br>
+              Feeling like a foreign body is in the eye(s) or an urge to rub the eye(s)</br>
+              Itching, irritation, and/or burning</br>
+              Discharge (pus or mucus)</br>
+              Crusting of eyelids or lashes, especially in the morning</br>
+              Contact lenses that feel uncomfortable and/or do not stay in place on the eye</br>
+              Depending on the cause, other symptoms may occur.</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye2.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>How it spreads</h2>
+              <p>Several viruses and bacteria can cause conjunctivitis (pink eye), some of which are very contagious. Each of these types of germs can spread from person to person in different ways. They usually spread from an infected person to others through</br>
+
+                Close personal contact, such as touching or shaking hands</br>
+                The air by coughing and sneezing</br>
+                Touching an object or surface with germs on it, then touching your eyes before washing your hands</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye3.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>Bacterial Conjunctivitis</h2>
+              <p>The cause may be bacterial if</br>
+
+                conjunctivitis occurs at the same time as an ear infection</br>
+                occurs shortly after birth</br>
+                discharge from the eye is thick rather than watery</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye4.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>Allergic Conjunctivitis</h2>
+              <p>The cause is likely allergic if</br>
+
+                conjunctivitis occurs seasonally when pollen counts are high</br>
+                the patients eyes itch intensely</br>
+                it occurs with other signs of allergic disease, such as hay fever, asthma, or eczema</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye5.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>Diagnosis</h2>
+              <p>A doctor can often determine whether a virus, bacterium, or allergen is causing the conjunctivitis (pink eye) based on patient history, symptoms, and an examination of the eye. Conjunctivitis always involves eye redness or swelling, but it also has other symptoms that can vary depending on the cause. These symptoms can help a healthcare professional diagnose the cause of conjunctivitis. However, it can sometimes be difficult to make a firm diagnosis because some symptoms are the same no matter the cause.</br>
+
+                It can also sometimes be difficult to determine the cause without doing laboratory testing. Although not routinely done, your healthcare provider may collect a sample of eye discharge from the infected eye and send it to the laboratory to help them determine which form of infection you have and how best to treat it..</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye6.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>Preventing the Spread of Conjunctivitis</h2>
+              <p>you can help limit its spread to other people by following these steps:
+
+                Wash your hands often with soap and warm water for at least 20 seconds. Wash them especially well before and after cleaning, or applying eye drops or ointment to, your infected eye. If soap and water are not available, use an alcohol-based hand sanitizer that contains at least 60% alcohol to clean hands. (See CDC’s Clean Hands Save Lives! website for tips on proper handwashing.)</br>
+                Avoid touching or rubbing your eyes. This can worsen the condition or spread it to your other eye.</br>
+                With clean hands, wash any discharge from around your eye(s) several times a day using a clean, wet washcloth or fresh cotton ball. Throw away cotton balls after use, and wash used washcloths with hot water and detergent, then wash your hands again with soap and warm water.</br>
+                Do not use the same eye drop dispenser/bottle for your infected and non-infected eyes.</br>
+                Wash pillowcases, sheets, washcloths, and towels often in hot water and detergent; wash your hands after handling such items.</br>
+                Stop wearing contact lenses until your eye doctor says it’s okay to start wearing them again.</br>
+                Clean eyeglasses, being careful not to contaminate items (like hand towels) that might be shared by other people.</br>
+                Clean, store, and replace your contact lenses as instructed by your eye doctor.</br>
+                Do not share personal items, such as pillows, washcloths, towels, eye drops, eye or face makeup, makeup brushes, contact lenses, contact lens storage cases, or eyeglasses.</br>
+                Do not use swimming pools.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye7.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>If You Are Around Someone with Conjunctivitis</h2>
+              <p>Wash your hands often with soap and warm water for at least 20 seconds. If soap and warm water are not available, use an alcohol-based hand sanitizer that contains at least 60% alcohol to clean hands. (See CDC’s Clean Hands Save Lives! website for tips on proper handwashing.)</br>
+                Wash your hands after contact with an infected person or items he or she uses; for example, wash your hands after applying eye drops or ointment to an infected person’s eye(s) or after putting their bed linens in the washing machine.</br>
+                Avoid touching your eyes with unwashed hands.</br>
+                Do not share items used by an infected person; for example, do not share pillows, washcloths, towels, eye drops, eye or face makeup, makeup brushes, contact lenses, contact lens storage cases, or eyeglasses..</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4" style="border:1px solid 
+        #ddd">
+              <img src={% static "images\pinkEye8.jpg" %} alt="responsive webite" class="img-fluid">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8" style="border:1px solid 
+        #ddd">
+              <h2>Treatment</h2>
+              <p>There are times when it is important to seek medical care for conjunctivitis (pink eye). However, this is not always necessary. To help relieve some of the inflammation and dryness caused by conjunctivitis, you can use cold compresses and artificial tears, which you can purchase over the counter without a prescription. You should also stop wearing contact lenses until your eye doctor says it’s okay to start wearing them again. If you did not need to see a doctor, do not wear your contacts until you no longer have symptoms of pink eye.</br>
+                You should see a healthcare provider if you have conjunctivitis along with any of the following:</br>
+
+                pain in the eye(s)</br>
+                sensitivity to light or blurred vision that does not improve when discharge is wiped from the eye(s)</br>
+                intense redness in the eye(s)</br>
+                symptoms that get worse or don’t improve, including pink eye thought to be caused by bacteria which does not improve after 24 hours of antibiotic use</br>
+                a weakened immune system, for example from HIV infection, cancer treatment, or other medical conditions or treatments</br>
+                Newborns with symptoms of conjunctivitis should be seen by a doctor right away.</br>
+                viral conjunctivitis are mild. The infection will usually clear up in 7 to 14 days without treatment and without any long-term consequences. However, in some cases, viral conjunctivitis can take 2 to 3 weeks or more to clear up.</br>
+                bacterial conjunctivitis may get better without antibiotic treatment and without causing any complications. It often improves in 2 to 5 days without treatment but can take 2 weeks to go away completely.</br>
+              </p>
+            </div>
+          </div>
+    </div> 
+{% endblock %}
